@@ -1,1 +1,0 @@
-#ar vici da ra vqna :(((
