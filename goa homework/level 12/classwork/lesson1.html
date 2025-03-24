@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 500px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        button, a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover, a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Car Information</h2>
+        <p>Cars are one of the most important forms of transportation. They are used for travel, entertainment, and sports.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Lamborghini_Huracan_LP610-4_Orange.jpg" alt="Car">
+        <br>
+        <button onclick="showMessage()">Learn More</button>
+        <br>
+        <a href="https://en.wikipedia.org/wiki/Car"d:\SHAKO\Desktop\th.jpg target="_blank">Visit Wikipedia</a>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("For more information about cars, visit Wikipedia!");
+        }
+    </script>
+
+</body>
+</html>
+
